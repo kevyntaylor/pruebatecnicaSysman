@@ -1,6 +1,6 @@
-#Prueba Tecnica
+# Prueba Tecnica
 
-##Ejecución
+## Ejecución
 Para ejecutar el proyecto, sigue estos pasos:
 
 Clona este repositorio en tu máquina local.
@@ -12,12 +12,12 @@ Copy code
 mvn spring-boot:run
 El proyecto se ejecutará en el puerto 9000.
 
-##Documentación de Servicios
+## Documentación de Servicios
 La documentación de los servicios RESTful se encuentra disponible a través de Swagger. Puedes acceder a la documentación utilizando el siguiente enlace:
 
 Swagger - Documentación de Servicios
 
-##Estructura del Proyecto
+## Estructura del Proyecto
 El proyecto sigue una arquitectura de capas con controladores, servicios y repositorios:
 
 Capa de Controladores: Contiene las clases que manejan las solicitudes HTTP y gestionan las respuestas.
@@ -26,10 +26,10 @@ Capa de Repositorios: Contiene las interfaces que definen las operaciones de acc
 Base de Datos
 Se utiliza una base de datos H2 en memoria. Las credenciales y configuraciones de la base de datos se encuentran en el archivo de propiedades (application.properties).
 
-##Scripts
+## Scripts
 En el directorio scripts, encontrarás los scripts solicitados de consultas SQL y PL/SQL.
 
-##Captura de Pantalla
+## Captura de Pantalla
 A continuación, se muestra una captura de pantalla del acceso a Swagger, donde puedes probar el API:
 ![Captura de Pantalla](captura.png)
 
